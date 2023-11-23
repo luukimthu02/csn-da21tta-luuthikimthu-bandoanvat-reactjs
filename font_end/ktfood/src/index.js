@@ -1,6 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import HomePage from './pages/user/homePage';
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
+import RouterCustom from './routers';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<HomePage />);
+root.render(
+
+    <BrowserRouter>
+       <RouterCustom />
+    </BrowserRouter>
+);

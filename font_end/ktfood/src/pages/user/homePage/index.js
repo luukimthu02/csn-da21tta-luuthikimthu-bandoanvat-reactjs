@@ -1,6 +1,6 @@
-import { memo } from 'react';
+import {memo} from "react";
 const HomePage = () => {
-    return <h1>KT Food</h1>;
+    return <h1>homePage</h1>;
     
 };
-export default memo(HomePage); 
+export default memo (HomePage); 
